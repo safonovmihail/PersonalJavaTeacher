@@ -11,26 +11,22 @@ public class Task_07_10_BoyGirlCompatibility {
 		double num4 = ageBirth - Math.floor(ageBirth / 10) * 10;
 		return (num1 + num2 + num3 + num4);
 	}
-	
+
 	public static void main(String[] args) {
 		int ageBirthBoy;
 		int ageBirthGirl;
-//		double sumNumAgeBoy;
-//		double sumNumAgeGirl;
 		Scanner in = new Scanner(System.in);
 		System.out.println("Введите год рождения молодого человека: ");
 		ageBirthBoy = in.nextInt();
 		System.out.println("Введите год рождения девушки: ");
 		ageBirthGirl = in.nextInt();
 		in.close();
-//		sumNumAgeBoy = sumNum(ageBirthBoy);
-//		sumNumAgeGirl = sumNum(ageBirthGirl);
 		if (ageBirthBoy <= 1900 | ageBirthBoy >= 2100 | ageBirthGirl <= 1900 | ageBirthGirl >= 2100) {
-			System.out.println("Возраст вне рассматриваемого диапазона, [1900;2100]");
+			System.out.println("Возраст вне рассматриваемого диапазона, [1900:2100]");
 		} else if (sumNum(ageBirthGirl) > sumNum(ageBirthBoy)) {
 			System.out.println("Кандидатура одобрена");
 		} else {
 			System.out.println("Кандидат не подходит");
-		}		
+		}
 	}
 }
