@@ -2,7 +2,7 @@ package firstTasks202001;
 
 import java.util.Scanner;
 
-public class LeapYear {
+public class Task_07_03_LeapYear {
 
 //определить, является ли год високосным
 

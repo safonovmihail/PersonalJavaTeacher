@@ -3,7 +3,7 @@ package firstTasks202001;
 //import java.io.InputStream;
 import java.util.Scanner;
 
-public class ThreeNums {
+public class Task_07_01_ThreeNums {
 
 	public static void main(String[] args) {
 		int max;

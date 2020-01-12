@@ -2,7 +2,7 @@ package firstTasks202001;
 
 import java.util.Scanner;
 
-public class CompareThreeNums {
+public class Task_07_05_CompareThreeNums {
 
 	public static void main(String[] args) {
 		int num1, num2, num3;

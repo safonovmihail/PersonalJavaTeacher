@@ -2,7 +2,7 @@ package firstTasks202001;
 
 import java.util.Scanner;
 
-public class EvenNumber {
+public class Task_07_04_EvenNumber {
 
 	// определение четности числа
 

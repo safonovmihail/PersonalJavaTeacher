@@ -2,7 +2,7 @@ package firstTasks202001;
 
 import java.util.Scanner;
 
-public class CompareNums {
+public class Task_07_02_CompareNums {
 
 	public static void main(String[] args) {
 		float num1;
