@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class Task_07_04_EvenNumber {
 
-	// определение четности числа
+	// РѕРїСЂРµРґРµР»РµРЅРёРµ С‡РµС‚РЅРѕСЃС‚Рё С‡РёСЃР»Р°
 
 	public static void main(String[] args) {
 		int num;
 		Scanner in = new Scanner(System.in);
-		System.out.println("Введите целое число: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
 		num = in.nextInt();
 		in.close();
 		if (num % 2 == 0) {
-			System.out.println("четное");
+			System.out.println("С‡РµС‚РЅРѕРµ");
 		} else {
-			System.out.println("нечетное");
+			System.out.println("РЅРµС‡РµС‚РЅРѕРµ");
 		}
 
 	}

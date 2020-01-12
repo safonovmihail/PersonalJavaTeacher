@@ -9,15 +9,15 @@ public class Task_07_02_CompareNums {
 		float num2;
 
 		Scanner in = new Scanner(System.in);
-		System.out.print("введите первое вещественное число: ");
+		System.out.print("РІРІРµРґРёС‚Рµ РїРµСЂРІРѕРµ РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ: ");
 		num1 = in.nextFloat();
-		System.out.print("введите второе вещественное число: ");
+		System.out.print("РІРІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ: ");
 		num2 = in.nextFloat();
 		in.close();
 		if (num1 * 1000 / 1000 == num2 * 1000 / 1000) {
-			System.out.println("Числа совпадают до третьего знака");
+			System.out.println("Р§РёСЃР»Р° СЃРѕРІРїР°РґР°СЋС‚ РґРѕ С‚СЂРµС‚СЊРµРіРѕ Р·РЅР°РєР°");
 		} else {
-			System.out.println("Числа не совпадают до третьего знака");
+			System.out.println("Р§РёСЃР»Р° РЅРµ СЃРѕРІРїР°РґР°СЋС‚ РґРѕ С‚СЂРµС‚СЊРµРіРѕ Р·РЅР°РєР°");
 		}
 	}
 

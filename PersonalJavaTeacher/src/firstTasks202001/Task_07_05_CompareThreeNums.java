@@ -7,11 +7,11 @@ public class Task_07_05_CompareThreeNums {
 	public static void main(String[] args) {
 		int num1, num2, num3;
 		Scanner in = new Scanner(System.in);
-		System.out.println("Введите первое число: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ: ");
 		num1 = in.nextInt();
-		System.out.println("Введите второе число: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ: ");
 		num2 = in.nextInt();
-		System.out.println("Введите третье число: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‚СЂРµС‚СЊРµ С‡РёСЃР»Рѕ: ");
 		num3 = in.nextInt();
 		in.close();
 		if (num1 == num2 & num2 == num3) {

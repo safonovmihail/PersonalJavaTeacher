@@ -8,7 +8,7 @@ public class Task_07_06_MonthsDaysSeasons {
 		int month;
 		int days;
 		Scanner in = new Scanner(System.in);
-		System.out.print("Введите номер месяца: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РјРµСЃСЏС†Р°: ");
 		month = in.nextInt();
 		in.close();
 		switch (month) {
@@ -20,7 +20,7 @@ public class Task_07_06_MonthsDaysSeasons {
 		case 10:
 		case 12:
 			days = 31;
-			System.out.println("Количество дней: " + days);
+			System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№: " + days);
 			break;
 		}
 		switch (month) {
@@ -29,23 +29,23 @@ public class Task_07_06_MonthsDaysSeasons {
 		case 9:
 		case 11:
 			days = 30;
-			System.out.println("Количество дней: " + days);
+			System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№: " + days);
 			break;
 		}
 		if (month == 2) {
-			System.out.println("Количество дней: 28 или 29");
+			System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№: 28 РёР»Рё 29");
 		}
 		if (month==12|month==1|month==2) {
-			System.out.println("Месяц зимний");
+			System.out.println("РњРµСЃСЏС† Р·РёРјРЅРёР№");
 		}
 		if (month==3|month==4|month==5) {
-			System.out.println("Месяц весенний");
+			System.out.println("РњРµСЃСЏС† РІРµСЃРµРЅРЅРёР№");
 		}
 		if (month==6|month==7|month==8) {
-			System.out.println("Месяц летний");
+			System.out.println("РњРµСЃСЏС† Р»РµС‚РЅРёР№");
 		}
 		if (month==9|month==10|month==11) {
-			System.out.println("Месяц осенний");
+			System.out.println("РњРµСЃСЏС† РѕСЃРµРЅРЅРёР№");
 		}
 		
 	}

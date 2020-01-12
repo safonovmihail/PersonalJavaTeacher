@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class Task_07_03_LeapYear {
 
-//определить, является ли год високосным
+//РѕРїСЂРµРґРµР»РёС‚СЊ, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіРѕРґ РІРёСЃРѕРєРѕСЃРЅС‹Рј
 
 	public static void main(String[] args) {
 		int birthYear;
 		Scanner in = new Scanner(System.in);
-		System.out.print("введите год рождения: ");
+		System.out.print("РІРІРµРґРёС‚Рµ РіРѕРґ СЂРѕР¶РґРµРЅРёСЏ: ");
 		birthYear = in.nextInt();
 		in.close();
 		if (birthYear % 4 == 0 & birthYear % 400 != 0) {
-			System.out.print("год високосный");
+			System.out.print("РіРѕРґ РІРёСЃРѕРєРѕСЃРЅС‹Р№");
 		} else {
-			System.out.println("год не високосный");
+			System.out.println("РіРѕРґ РЅРµ РІРёСЃРѕРєРѕСЃРЅС‹Р№");
 		}
 	}
 
