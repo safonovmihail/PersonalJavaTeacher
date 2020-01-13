@@ -1,6 +1,7 @@
 package firstTasks202001;
 
 import java.util.Scanner;
+//import java.math.*;
 
 public class Task_07_07_HousePaint {
 
@@ -9,8 +10,8 @@ public class Task_07_07_HousePaint {
 		int wide1;
 		int height;
 		int wide2;
-		int cap;// емкость одной банки
-		int area;
+		float cap;// емкость одной банки
+		float area;
 
 		Scanner in = new Scanner(System.in);
 		System.out.println("Введите габариты (ширина1 ,м.):");
@@ -20,10 +21,16 @@ public class Task_07_07_HousePaint {
 		System.out.println("Введите габариты (высота, м.):");
 		height = in.nextInt();
 		System.out.println("Введите площадь покраски из одной банки (в кв.м.):");
-		cap = in.nextInt();
+		cap = in.nextFloat();
 		in.close();
-		area = 2* height *(wide1 + wide2);
+
+		area = 2 * height * (wide1 + wide2);
 		System.out.println("Площадь покраски одного дома: " + area + " кв.м.");
-		System.out.println("Для покраски необходимо банок (шт.): " + Math.ceil(area / cap));
+		System.out.println("Для покраски необходимо банок (точное значение) (шт.): " + area / cap);
+		if (area / cap - Math.floor(area / cap) >= 0.05) {
+			System.out.println("Для покраски необходимо банок (шт.): " + Math.ceil(area / cap));
+		} else {
+			System.out.println("Для покраски необходимо банок (шт.): " + Math.floor(area / cap));
+		}
 	}
 }

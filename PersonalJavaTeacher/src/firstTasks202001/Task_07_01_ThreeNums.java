@@ -30,7 +30,6 @@ public class Task_07_01_ThreeNums {
 		if (salSen > max) {
 			max = salSen;
 		}
-
 		if (salJun < salMid) {
 			min = salJun;
 		} else {
@@ -41,10 +40,23 @@ public class Task_07_01_ThreeNums {
 		}
 		maxDif = max / min;
 
+//не смог решить иначе, как в лоб.
+		if (salJun == max)
+			System.out.println("Максимальная зарплата у джуна");
+		else if (salMid == max)
+			System.out.println("Максимальная зарплата у мидла");
+		else
+			System.out.println("Максимальная зарплата у сеньёра");
+
+		if (salJun == min)
+			System.out.println("Минимальная зарплата у джуна");
+		else if (salMid == min)
+			System.out.println("Минимальная зарплата у мидла");
+		else
+			System.out.println("Минимальная зарплата у сеньёра");
+
 		System.out.println("Максимальная зарплата: " + max);
 		System.out.println("Минимальная зарплата: " + min);
 		System.out.println("Максимальная зарплата больше минимальной в " + maxDif + " раз");
-
 	}
-
 }

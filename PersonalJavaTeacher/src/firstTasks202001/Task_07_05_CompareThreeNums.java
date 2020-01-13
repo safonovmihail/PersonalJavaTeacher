@@ -16,10 +16,9 @@ public class Task_07_05_CompareThreeNums {
 		in.close();
 		if (num1 == num2 & num2 == num3) {
 			System.out.println("all equals");
-		} else if (num1 != num2 & num2 != num3) {
+		} else if (num1 != num2 & num2 != num3 & num1 != num3) {
 			System.out.println("all different");
-		}
-		else {
+		} else {
 			System.out.println("Equals or different");
 		}
 	}
