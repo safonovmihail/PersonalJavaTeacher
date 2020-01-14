@@ -15,7 +15,10 @@ public class Task_07_02_CompareNums {
 		num2 = in.nextFloat();
 		in.close();
 //не понял, зачем приводить к инту?
-		if (num1 * 1000 / 1000 == num2 * 1000 / 1000) {
+//		if (num1 * 1000 / 1000 == num2 * 1000 / 1000) {
+		System.out.println((int)(num1 * 1000));
+		System.out.println((int)(num2 * 1000));
+		if ((int)num1 * 1000 == (int)num2 * 1000) {
 			System.out.println("Числа совпадают до третьего знака");
 		} else {
 			System.out.println("Числа не совпадают до третьего знака");
