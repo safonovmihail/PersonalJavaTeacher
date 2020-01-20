@@ -28,13 +28,10 @@ public class Task_08_09_OxyLoveNot {
 				sum = sum + i;
 			}
 		}
-		System.out.println("sum:" + sum);
-
 		if (sum != 0 && sum % 2 == 0) {
 			System.out.println("Любит");
 		} else {
 			System.out.println("Не любит");
 		}
 	}
-
 }
