@@ -14,7 +14,7 @@ public class Task_08_05_SumExceptTwoNums {
 			}
 			sum = sum + i;
 //			Это мне для понимания работы программы
-//			System.out.println("i: " + i);
+			System.out.println("i: " + i);
 //			System.out.println("сумма промежуточная: " + sum);
 		}
 //		System.out.println();
