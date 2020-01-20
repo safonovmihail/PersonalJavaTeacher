@@ -17,7 +17,7 @@ public class Task_08_03_SumIntervalAverage {
 		in.close();
 		sum = 0;
 		iter = 0;
-		for (i = n+1; i < m; i++) {
+		for (i = n; i <= m; i++) {
 			sum = sum + i;
 			iter ++;
 		}
@@ -26,5 +26,4 @@ public class Task_08_03_SumIntervalAverage {
 // используем приведение типов, иначе получается целочисленное деление! 
 // Спасибо! великолепная задача. Очень тонкий и неторопливый подход ))) пока без стрессов		
 	}
-
 }
