@@ -18,11 +18,11 @@ public class Task_08_08_VasyaHacker {
 		Scanner in = new Scanner(System.in);
 		n = in.nextDouble();
 		double log = Math.log(n) / Math.log(2);
-		System.out.println("Степень числа 2: "+log);
+		System.out.println("Степень числа 2: " + log);
 // проверяем, является ли получившаяся степень целым числом
 // [Вопрос] уверен, что есть более изящные способы проверки числа на принадлежность к 
 // целому типу. Подскажите, пожалуйста, направление, я попробую догадаться.	
-		if ((int)log == log) {
+		if ((int) log == log) {
 			System.out.println("Служебное число");
 		} else {
 			System.out.println("Число не служебное");
