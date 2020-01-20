@@ -8,7 +8,7 @@ public class Task_08_05_SumExceptTwoNums {
 	public static void main(String[] args) {
 		int i, sum;
 		sum = 0;
-		for (i = 0; i < 11; i++) {
+		for (i = 0; i <= 11; i++) {
 			if (i == 3 | i == 6) {
 				continue;
 			}
@@ -17,7 +17,7 @@ public class Task_08_05_SumExceptTwoNums {
 //			System.out.println("i: " + i);
 //			System.out.println("сумма промежуточная: " + sum);
 		}
-		System.out.println();
+//		System.out.println();
 		System.out.println("Сумма: " + sum);
 	}
 }
