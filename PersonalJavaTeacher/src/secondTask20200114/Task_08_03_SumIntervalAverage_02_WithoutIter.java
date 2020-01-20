@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task_08_03_SumIntervalAverage_02_WithoutIter {
 
 	public static void main(String[] args) {
-			int i, n, m, sum, iter;
+			int i, n, m, sum;
 			Scanner in = new Scanner(System.in);
 			System.out.print("Введите левую границу интервала [n]: ");
 			n = in.nextInt();
