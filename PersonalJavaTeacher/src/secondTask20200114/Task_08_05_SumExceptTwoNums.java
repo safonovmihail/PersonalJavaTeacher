@@ -18,6 +18,6 @@ public class Task_08_05_SumExceptTwoNums {
 //			System.out.println("сумма промежуточная: " + sum);
 		}
 //		System.out.println();
-		System.out.println("Сумма: " + sum);
+//		System.out.println("Сумма: " + sum);
 	}
 }
