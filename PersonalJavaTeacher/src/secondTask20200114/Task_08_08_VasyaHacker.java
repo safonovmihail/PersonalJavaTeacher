@@ -13,16 +13,17 @@ import java.util.Scanner;
 public class Task_08_08_VasyaHacker {
 
 	public static void main(String[] args) {
-		double n;
+		int n;
 		System.out.println("Введите число: ");
 		Scanner in = new Scanner(System.in);
-		n = in.nextDouble();
+		n = in.nextInt();
+		in.close();
 		double log = Math.log(n) / Math.log(2);
 		System.out.println("Степень числа 2: " + log);
 // проверяем, является ли получившаяся степень целым числом
 // [Вопрос] уверен, что есть более изящные способы проверки числа на принадлежность к 
 // целому типу. Подскажите, пожалуйста, направление, я попробую догадаться.	
-		if ((int) log == log) {
+		if (n %2 == 0) {
 			System.out.println("Служебное число");
 		} else {
 			System.out.println("Число не служебное");
