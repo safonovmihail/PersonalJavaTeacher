@@ -13,13 +13,10 @@ public class Task_08_03_SumIntervalAverage_02_WithoutIter {
 			m = in.nextInt();
 			in.close();
 			sum = 0;
-//			iter = 0;
 			for (i = n; i <= m; i++) {
 				sum = sum + i;
-//				iter ++;
 			}
 			System.out.println("Сумма целых чисел в интервале [n;m]: " + sum);
-//			System.out.println("Среднее арифметическое равно: " + (float)sum/(float)iter);
 			System.out.println("Среднее арифметическое равно: " + (float)sum/(float)(m-n+1));
 		}
 	}

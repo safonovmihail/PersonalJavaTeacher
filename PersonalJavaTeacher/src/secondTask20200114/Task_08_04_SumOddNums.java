@@ -2,9 +2,6 @@ package secondTask20200114;
 
 import java.util.Scanner;
 
-// 8.4. Напишите программу, которая будет вычислять сумму 
-// только нечётных из первых N целых чисел, начиная с 0.
-
 public class Task_08_04_SumOddNums {
 
 	public static void main(String[] args) {
@@ -23,5 +20,4 @@ public class Task_08_04_SumOddNums {
 		System.out.println();
 		System.out.println("сумма:" + sum);
 	}
-
 }

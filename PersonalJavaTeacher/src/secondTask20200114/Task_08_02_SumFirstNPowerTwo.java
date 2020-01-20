@@ -1,8 +1,5 @@
 package secondTask20200114;
 
-//8.2. Напишите программу, которая вычисляет 
-//сумму квадратов первых N целых чисел, начиная с 1.
-
 import java.util.Scanner;
 
 public class Task_08_02_SumFirstNPowerTwo {

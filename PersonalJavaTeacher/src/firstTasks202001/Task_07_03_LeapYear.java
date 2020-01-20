@@ -18,5 +18,4 @@ public class Task_07_03_LeapYear {
 			System.out.println("год не високосный");
 		}
 	}
-
 }

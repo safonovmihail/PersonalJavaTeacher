@@ -1,8 +1,5 @@
 package secondTask20200114;
 
-// 8.3. Напишите программу, которая вычисляет сумму целых чисел от N до M 
-// и выводит эту сумму и среднее значение. N и M вводятся с клавиатуры.
-
 import java.util.Scanner;
 
 public class Task_08_03_SumIntervalAverage {

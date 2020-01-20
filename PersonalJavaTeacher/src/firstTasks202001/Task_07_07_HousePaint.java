@@ -1,7 +1,6 @@
 package firstTasks202001;
 
 import java.util.Scanner;
-//import java.math.*;
 
 public class Task_07_07_HousePaint {
 

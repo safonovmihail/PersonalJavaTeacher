@@ -47,7 +47,5 @@ public class Task_07_06_MonthsDaysSeasons {
 		if (month==9|month==10|month==11) {
 			System.out.println("Месяц осенний");
 		}
-		
 	}
 }
-//}
