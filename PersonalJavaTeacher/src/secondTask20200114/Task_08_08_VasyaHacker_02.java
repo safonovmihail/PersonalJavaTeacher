@@ -28,7 +28,7 @@ public class Task_08_08_VasyaHacker_02 {
 			if (n % i != 0) {
 				msg = "Число не служебное";
 				break;
-			} else if (n / i == 1) {
+			} else {
 				msg = "Служебное число";
 			}
 		}
