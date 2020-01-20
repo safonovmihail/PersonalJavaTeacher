@@ -35,4 +35,3 @@ public class Task_08_08_VasyaHacker_02 {
 		System.out.println(msg);
 	}
 }
-
