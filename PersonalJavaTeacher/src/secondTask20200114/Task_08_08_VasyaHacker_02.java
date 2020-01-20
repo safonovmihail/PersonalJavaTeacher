@@ -15,23 +15,18 @@ public class Task_08_08_VasyaHacker_02 {
 
 	public static void main(String[] args) {
 		int n, i;
-		String msg;
 
 		System.out.println("Введите число: ");
 		Scanner in = new Scanner(System.in);
 		n = in.nextInt();
 		in.close();
 
-		msg = null;
-
-		for (i = 2; (i <= n); i = 2 * i) {
-			if (n % i != 0) {
-				msg = "Число не служебное";
-				break;
-			} else {
-				msg = "Служебное число";
-			}
+		for (i = 2; (i < n); i = 2 * i) {
 		}
-		System.out.println(msg);
+		if (i == n) {
+			System.out.println("Число служебное");
+		} else {
+			System.out.println("Число не служебное");
+		}
 	}
 }
