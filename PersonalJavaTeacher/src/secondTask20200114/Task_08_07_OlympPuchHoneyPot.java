@@ -14,13 +14,13 @@ public class Task_08_07_OlympPuchHoneyPot {
 		System.out.println("Введите количество выедаемых горстей за один раз: ");
 		x2 = in.nextInt();
 		in.close();
-		sum = 0;
+		sum = x1;
 		for (i = 1; (x1 - i * x2) >= 0; i++) {
 			consist = (x1 - (i - 1) * x2);
 			sum = sum + consist;
 		}
 		System.out.println();
-		System.out.println("Всего дней: " + (i - 1));
+		System.out.println("Всего дней: " + i);
 		System.out.println("Всего собрано меда (в горстях): " + sum);
 		System.out.println("Всего собрано меда (в горшочках): " + (float) sum / (float) x1);
 	}
