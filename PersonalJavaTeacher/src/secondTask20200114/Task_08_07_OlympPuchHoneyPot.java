@@ -25,3 +25,4 @@ public class Task_08_07_OlympPuchHoneyPot {
 		System.out.println("Всего собрано меда (в горшочках): " + (float) sum / (float) x1);
 	}
 }
+
