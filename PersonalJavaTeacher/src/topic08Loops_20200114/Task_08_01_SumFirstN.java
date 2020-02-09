@@ -1,4 +1,4 @@
-package secondTask20200114;
+package topic08Loops_20200114;
 
 import java.util.Scanner;
 public class Task_08_01_SumFirstN {

@@ -1,4 +1,4 @@
-package secondTask20200114;
+package topic08Loops_20200114;
 
 public class Task_08_06_NumsDiv3 {
 

@@ -1,4 +1,4 @@
-package firstTasks202001;
+package topic07_202001;
 
 import java.util.Scanner;
 

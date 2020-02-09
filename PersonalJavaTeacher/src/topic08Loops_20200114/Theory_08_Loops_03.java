@@ -1,4 +1,4 @@
-package secondTask20200114;
+package topic08Loops_20200114;
 
 // иллюстрация: группа операторов в теле цикла
 
