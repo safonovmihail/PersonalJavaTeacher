@@ -5,24 +5,18 @@ import java.util.Scanner;
 public class Task_08_07_OlympPuchHoneyPot {
 
 	public static void main(String[] args) {
-
-		int x1, x2, i, sum, consist;
-		sum = 0;
+		int x, y, sum, i;
 		Scanner in = new Scanner(System.in);
-		System.out.println("Введите емкость горшочка в горстях: ");
-		x1 = in.nextInt();
-		System.out.println("Введите количество выедаемых горстей за один раз: ");
-		x2 = in.nextInt();
+		System.out.print("Объем горшочка (в горстях): ");
+		x = in.nextInt();
+		System.out.print("Количство выедаемых горстей: ");
+		y = in.nextInt();
 		in.close();
-		sum = x1;
-		for (i = 1; (x1 - i * x2) >= 0; i++) {
-			consist = (x1 - (i - 1) * x2);
-			sum = sum + consist;
+		sum = 0;
+		for (i = 1; x - y * (i - 1) > 0; i++) {
+			sum = sum + x - y * (i - 1);
 		}
-		System.out.println();
-		System.out.println("Всего дней: " + i);
-		System.out.println("Всего собрано меда (в горстях): " + sum);
-		System.out.println("Всего собрано меда (в горшочках): " + (float) sum / (float) x1);
+		System.out.println("горшков: " + (float)sum/(float)x);
+		System.out.println("дней: " + (i-1));
 	}
 }
-
