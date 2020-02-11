@@ -9,9 +9,12 @@ public class Topic09Loops_HW_03_E {
 			for (j = 1; j <= 4; j++) {
 				if (i == 2 || i == 3 || i == 5 || i == 6)
 					continue;
+				if (j == 3 && i == 4)
+					continue;
 				System.out.print("*");
 			}
 			System.out.println("");
 		}
+
 	}
 }
